@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@impport url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css');
+
+/*Main page*/
+.body1{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js{
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  background-color: #111;
+  z-index: -1;
+}
+
+/* Style the links inside the navigation bar */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #818181;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #111;
+    display: block;
+    transition: 0.3s;
+}
+.active{
+	color: yellow;
+}
+.active:hover{
+	color: #f1f1f1;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.align{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+font-family: 'Merienda', cursive;
+
+  color: #f40505;
+  font-size: 3em;
+}
+#animation{
+  animation: col 10s infinite;
+}
+@keyframes col{
+0% {color: #09ff00;}
+12.5% {color: #30368c;}
+25% {color: #00ff95;}
+37.5% {color: #00d5ff;}
+50% {color: #979ce4;}
+62.5% {color: #5964f1;}
+75% {color: #0b17c6;}
+87.5% {color: #ffbb00;}
+100% {color: #09ff00;}
+}
+.copy{
+  position: fixed;
+font-size: 20px;
+bottom: 10px;
+float: right;
+right: 10px;
+color: white;
+}
+/*1st page ended here*/
+
+
+/*for page about me*/
+
+/*Main content of about me*/
+
+.head {
+  font-family: 'Merienda One', cursive;
+  width: 70%;
+  position: relative;
+  text-align: center;
+  font-size: 600% !important;
+  color: #3ebb68;
+  border: 3px solid #1d2f7f;
+  border-radius: 50%;
+  top: 70px;
+  box-shadow: 0 10px 20px #1d2f7f;
+  padding-bottom: 0px;
+  }
+  .col{
+    background-color: #ccc;
+    width: 90%;
+    left: 5%;
+    border: 2px solid black;
+    box-shadow: 0 10px 20px white;
+    border-radius: 50px;
+  }
+  .foot{
+    position: relative;
+    top: 110px;
+    background: linear-gradient(35deg, #0a1d7b, #193def);
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    width: 90%;
+    font-size: 30px;
+    border-radius: 10px;
+    left: 5%;
+    color: #aaaaaa;
+  }
+  #lis{
+    display: inline-flex;
+    letter-spacing: 30px;
+    font-size: 30px;
+    list-style: none;
+  }
+  #l1{
+    font-size: 40px;
+    color:#000;
+  }
+
+  #l1:hover{
+    cursor: pointer;
+    color: #ccc;
+    transition: 0.4s;
+  }
+  #shine1{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s linear infinite;
+}
+#hr1{
+  width: 15%;
+}
+#hr2{
+  width: 95%;
+}
+@keyframes shine {
+  from { -webkit-mask-position: 150%; }
+  to { -webkit-mask-position: -50%; }
+}
+#copy2{
+  float: right;
+  font-size: 50%;
+  font-family: none;
+}
+#end1{
+  font-size: 20px;
+  text-decoration: none;
+  word-spacing: 40px;
+  font-family: none;
+}
+#end1:link{
+  text-decoration: none;
+}
+#cc:hover{
+  color: red;
+}
+#c1{
+  font-size: 40px;
+}
+.new{
+	animation: new1 2s linear infinite;
+}
+@keyframes new1{
+	0% {color: white;}
+	50% {color: #ffafff;}
+	100% {color: white;}
+}
+.hr3{
+	position: relative;
+	width: 50px;
+	top: 0;
+	box-shadow: 0 0 2px 1px #00a1ff433;
+}
+center a{
+	text-decoration: none;	
+}
