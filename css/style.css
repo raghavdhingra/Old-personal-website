@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Yellowtail');
 @import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
-@impport url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 /*Main page*/
 .body1{
@@ -24,7 +25,6 @@
 }
 
 /* Style the links inside the navigation bar */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 .sidenav {
     height: 100%;
     width: 0;
@@ -55,18 +55,20 @@
 .sidenav a:hover {
     color: #f1f1f1;
 }
-
+.hi_anim{
+  animation-delay: 1.5s;
+  font-size: 100px !important;
+}
+.name_anim{
+  animation-delay: 2.3s;
+  font-size: 70px;
+}
 .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 .align{
   position: absolute;
@@ -208,7 +210,16 @@ color: white;
 	position: relative;
 	width: 50px;
 	top: 0;
-	box-shadow: 0 0 2px 1px #00a1ff433;
+	box-shadow: 0 0 2px 1px #00a433;
+}
+.name_anim2{
+  animation: name_anim 1s linear forwards;
+  animation-delay: 3s;
+}
+@keyframes name_anim{
+  100%{
+    top: 30%;
+  }
 }
 center a{
 	text-decoration: none;	

@@ -31,6 +31,9 @@ font-size: 2.3em;
 .navbar{
 grid-template-columns: 97.5% !important;
 }
+.name_anim{
+  font-size: 50px;
+}
 .head{
   top: 98px;
   font-size: 40px !important;
@@ -115,4 +118,8 @@ top: 20vh !important;
   #lis{
     word-spacing: 10px;
   }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
